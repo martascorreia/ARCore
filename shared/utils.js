@@ -38,6 +38,13 @@ window.gltfLoader.load("https://immersive-web.github.io/webxr-samples/media/gltf
   window.sunflower = gltf.scene;
 });
 
+window.gltfLoader.load("https://github.com/martacorreia29/MonteDosCastelinhosWebAR/blob/RA_AssistedTracking/app/src/resources/sondagem4%20-%20smaller.glb", function(gltf) {
+  const flower = gltf.scene.children.find(c => c.name === 'sondagem4')
+  flower.castShadow = true;
+  window.sondagem4 = gltf.scene;
+});
+
+
 
 window.DemoUtils = {
   /**
