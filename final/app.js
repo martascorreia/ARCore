@@ -94,8 +94,8 @@ class App {
 
   /** Place a sunflower when the screen is tapped. */
   onSelect = () => {
-    if (window.sondagem4) {
-      const clone = window.sondagem4.clone();
+    if (window.sunflower) {
+      const clone = window.sunflower.clone();
       clone.position.copy(this.reticle.position);
       this.scene.add(clone)
 

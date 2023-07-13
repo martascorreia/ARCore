@@ -38,11 +38,11 @@ window.gltfLoader.load("https://immersive-web.github.io/webxr-samples/media/gltf
   window.sunflower = gltf.scene;
 });
 
-window.gltfLoader.load("../assets/sondagem4 - smaller.glb", function(gltf) {
-  const flower = gltf.scene.children.find(c => c.name === 'sondagem4')
-  flower.castShadow = true;
+/*window.gltfLoader.load("http://localhost:8080/assets/sondagem4.glb", function(gltf) {
+  const sondagem4 = gltf.scene.children.find(c => c.name === 'sondagem4')
+  sondagem4.castShadow = true;
   window.sondagem4 = gltf.scene;
-});
+});*/
 
 
 
