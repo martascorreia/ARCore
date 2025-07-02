@@ -10,3 +10,5 @@ To see this project working:
   1. access "https://martascorreia.github.io/ARCore/final/";
   2. point the camera around, preferably on a flat surface (like a desk or the floor), and wait for a blue circle to appear;
   3. tap the screen to add a sunflower in place of the blue circle.
+
+The file https://github.com/martascorreia/ARCore/blob/main/arcore_hitTests.gif shows a working example.
